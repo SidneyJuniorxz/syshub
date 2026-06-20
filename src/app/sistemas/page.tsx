@@ -1,11 +1,11 @@
 import { ThreeBackground } from '@/components/ThreeBackground'
-import { HomeClient } from './HomeClient'
+import { SistemasClient } from './SistemasClient'
 
-export default function HomePage() {
+export default function SistemasPage() {
   return (
     <>
       <ThreeBackground />
-      <HomeClient />
+      <SistemasClient />
     </>
   )
 }
